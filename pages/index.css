@@ -41,6 +41,17 @@
   height: 42px;
   line-height: 42px;
 }
+.calendar-days-today {
+  background-color: #fed32c;
+  border-radius: 10px;
+}
+.calendar-days-selected {
+  border-radius: 10px;
+  outline: 1px solid #fed32c; /*解决占空间问题*/
+}
+.calendar-days > li.calendar-days-disabled {
+  color: #999;
+}
 .calendar-actions {
   display: flex;
   justify-content: space-between; /*空白放中间，按钮两边*/

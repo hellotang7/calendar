@@ -77,7 +77,7 @@ function render(time) {
       }
       li.onclick = () => {
         if (selectedLi) {
-          selectedLi.classList.remove("calender-days-selected");
+          selectedLi.classList.remove("calendar-days-selected");
         }
         li.classList.add("calendar-days-selected");
         selectedLi = li;
@@ -97,7 +97,7 @@ function render(time) {
       i++;
       li.onclick = () => {
         if (selectedLi) {
-          selectedLi.classList.remove("calender-days-selected");
+          selectedLi.classList.remove("calendar-days-selected");
         }
         li.classList.add("calendar-days-selected");
         selectedLi = li;
